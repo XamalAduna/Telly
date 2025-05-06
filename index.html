@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bibliothèque Islamique</title>
+  <link rel="stylesheet" href="n.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>📚 Bienvenue dans la Bibliothèque Islamique</h1>
+      <p>Explorez une collection riche de livres en PDF pour enrichir votre foi et vos connaissances.</p>
+    </div>
+  </header>
+  
+
+  <main class="container">
+      <a class="lien" href="Les_5 257==]./_piliers.html">
+        <!-- Partie 1 -->
+      <div class="book-card">
+        <h3>Les 5 Piliers</h3>
+        <div class="actions"></div>
+      </div>
+      </a>
+
+      <a class="lien" href="Foi.html">
+        <!-- Partie 2 -->
+      <div class="book-card">
+        <h3>La Foi</h3>
+        <div class="actions"></div>
+      </div>
+      </a>
+
+      <a class="lien" href="C_H_I.html">
+        <!-- Partie 3 -->
+      <div class="book-card">
+        <h3>Coran & Hadiths & Invocations</h3>
+        <div class="actions"></div>
+      </div>
+      </a>
+
+      <a class="lien" href="H_B.html">
+        <!-- Livre 2 -->
+      <div class="book-card">
+        <h3>Histoire & Biographie</h3>
+        <div class="actions"></div>
+      </div>
+      </a>
+
+      <!-- Livre 2 -->
+      <div class="book-card">
+        <h3>Famille Musulmane</h3>
+        <div class="actions"></div>
+      </div>
+
+      <!-- Livre 2 -->
+      <div class="book-card">
+        <h3>La langue Arabe</h3>
+        <div class="actions"></div>
+      </div>
+
+      <!-- Livre 2 -->
+      <div class="book-card">
+        <h3>L'islam et les autres religions</h3>
+        <div class="actions"></div>
+      </div>
+
+      <!-- Livre 2 -->
+      <div class="book-card">
+        <h3>Vivre en Société</h3>
+        <div class="actions"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+     
+  </main>
+
+  <script>
+    function lirePDF(lien) {
+      // Redirige vers lecteur.html avec le bon lien de fichier PDF
+      window.location.href = `lecteur.html?fichier=${encodeURIComponent(lien)}`;
+    }
+  
+    function partagerPDF(lien) {
+      // Crée un lien WhatsApp contenant l'URL complète du PDF
+      const message = `Voici un livre à lire : ${window.location.origin}/${lien}`;
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+  
+
+
+</body>
+</html>
