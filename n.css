@@ -156,13 +156,7 @@ body {
     text-decoration: underline;
   }
   
-  .lien {
-    text-decoration: none;
-  }
   
-  .lien:hover {
-    text-decoration: underline;
-  }
   
   .copyright {
     font-size: 14px;
