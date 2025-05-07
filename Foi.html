@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bibliothèque Islamique</title>
+  <link rel="stylesheet" href="n.css">
+</head>
+<body>
+
+
+
+  <div class="La_foi">
+    <h1>La Foi</h1>
+  </div>
+
+  
+  
+  <main class="container">
+
+     
+      
+
+  </main>
+
+  <script>
+    function lirePDF(lien) {
+      // Redirige vers lecteur.html avec le bon lien de fichier PDF
+      window.location.href = `lecteur.html?fichier=${encodeURIComponent(lien)}`;
+    }
+  
+    function partagerPDF(lien) {
+      // Crée un lien WhatsApp contenant l'URL complète du PDF
+      const message = `Voici un livre à lire : ${window.location.origin}/${lien}`;
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+  
+
+
+</body>
+</html>
