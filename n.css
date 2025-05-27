@@ -162,6 +162,95 @@ body {
     font-size: 14px;
     color: #bbb;
   }
+
+
+
+
+
+
+
+
+
+
+
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Titre sticky */
+  .La_foi {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    color: #1e7e34;
+    font-size: 1.8rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  
+  /* Formulaire de contact */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1e7e34;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #1e7e34;
+    outline: none;
+  }
+  
+  /* Bouton envoyer */
+  .contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #1e7e34;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1e7e34;
+  }
+  
   
 
 
