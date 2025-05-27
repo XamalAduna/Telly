@@ -163,6 +163,24 @@ body {
     color: #bbb;
   }
 
+.La_foi2{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+    color:#1e7e34;
+
+    position: sticky;
+    top: 0; /* ou une autre valeur si tu veux qu’il soit collé plus bas */
+    z-index: 100; /* pour qu’il reste au-dessus si besoin */
+
+    font-size: 0.85rem; /* taille de texte réduite */
+}
+
+
+
 
 
 
